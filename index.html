@@ -232,10 +232,23 @@
         <div class="contacts-wrapper">
             <form class="contacts-form">
                 <label for="fullName">Name</label>
-                <input id="fullName" type="text" placeholder="Your name:" class="contacts-form-field">
+                <input
+                        id="fullName"
+                        type="text"
+                        placeholder="Your name:"
+                        class="contacts-form-field"
+                        required
+                        minlength="2"
+                />
                 <label for="email">Email</label>
-                <input id="email" type="text" placeholder="Your email:" class="contacts-form-field">
-                <label for="message">Message</label>
+                <input
+                        id="email"
+                        type="email"
+                        placeholder="Your email:"
+                        class="contacts-form-field"
+                        required
+                />
+             <label for="message">Message</label>
                 <textarea id="message" class="contacts-form-field" rows="6">Your message:</textarea>
                 <button type="submit" class="contacts-form-button">SEND</button>
             </form>
