@@ -51,11 +51,6 @@ label {
     font-weight: 400;
 }
 
-.header-video {
-    width: 460px;
-    height: 212px;
-}
-
 .about {
     display: flex;
     justify-content: space-between;
@@ -285,19 +280,8 @@ label {
 }
 
 .contacts-form-field::placeholder {
-    font-size: 16px;
-    line-height: 24px;
     font-weight: 400;
     color: #445162;
-}
-
-.contacts-form-field:focus {
-    outline: none;
-    background-color: #ebebeb;
-}
-
-.contacts-form-field:hover {
-    background-color: #ebebeb;
 }
 
 .contacts-form-button {
