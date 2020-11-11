@@ -285,6 +285,8 @@ label {
 }
 
 .contacts-form-field::placeholder {
+    font-size: 16px;
+    line-height: 24px;
     font-weight: 400;
     color: #445162;
 }
