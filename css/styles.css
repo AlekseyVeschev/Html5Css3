@@ -130,6 +130,9 @@ label {
     position: absolute;
     margin-left: -42px;
     margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .screenshots-items-wrapper {
